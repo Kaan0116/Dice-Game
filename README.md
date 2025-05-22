@@ -15,15 +15,15 @@ This project implements a simple object-oriented dice game in Java, developed as
 
 The `input/` folder contains 3 sample inputs and their corresponding expected outputs:
 
+```
 input/
-├── i1.txt # Sample input 1
-├── i2.txt # Sample input 2
-├── i3.txt # Sample input 3
-├── o1.txt # Expected output 1
-├── o2.txt # Expected output 2
-└── o3.txt # Expected output 3
-
-
+├── i1.txt   # Sample input 1
+├── i2.txt   # Sample input 2
+├── i3.txt   # Sample input 3
+├── o1.txt   # Expected output 1
+├── o2.txt   # Expected output 2
+└── o3.txt   # Expected output 3
+```
 
 Source files (e.g., `DiceGame.java`) should be placed inside a `src/` folder if modularized, or in the root directory if using a single file.
 
@@ -32,3 +32,4 @@ Source files (e.g., `DiceGame.java`) should be placed inside a `src/` folder if 
 ```bash
 javac8 DiceGame.java
 java8 DiceGame input/i1.txt output.txt
+```
